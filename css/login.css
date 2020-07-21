@@ -1,0 +1,388 @@
+/* LESS Elements 0.9 */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@font-face {
+font-family: "FontAwesome";
+font-weight: normal;
+font-style : normal;
+       src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+       src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+             url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+             url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+             url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+             url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+body.login.wp-core-ui {
+    background: unset !important;
+}
+
+.fontAwesome {
+  font-family: "fontAwesome" !important;
+}
+.menuFA {
+  font-family: "fontAwesome" !important;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.serif {
+  font-family: 'Raleway', serif;
+}
+.sans {
+  font-family: 'Roboto', sans-serif !important;
+}
+.heading {
+  font-family: 'Raleway', sans-serif;
+}
+.bgCov {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+}
+.icowp_plus {
+  font-family: 'wp_plus' !important;
+  content: "\a002";
+}
+
+.container-scroller {
+    overflow: hidden;
+}
+
+.page-body-wrapper.full-page-wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    width: 100vw;
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.auth {
+    min-height: 100vh;
+}
+.content-wrapper {
+    padding: 1.5rem 0;
+    width: 100vw;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.p-0 {
+    padding: 0 !important;
+}
+
+.align-items-stretch, .email-wrapper .message-body .attachments-sections ul li {
+    align-items: stretch !important;
+}
+.d-flex, .loader-demo-box, .tickets-tab ul li .details, .tickets-tab ul li .details .t-content .sender-content, .nav .nav-item.dropdown .navbar-dropdown .dropdown-item, .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item, .new-accounts ul.chats li.chat-persons a, .new-accounts ul.chats li.chat-persons a div.user, .list-wrapper ul li, .email-wrapper .mail-sidebar .menu-bar .profile-list-item a, .email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user, .email-wrapper .mail-list-container .mail-list .details, .email-wrapper .message-body .attachments-sections ul li .thumb, .email-wrapper .message-body .attachments-sections ul li .details .buttons, .lightGallery .image-tile .demo-gallery-poster, .swal2-modal {
+    display: flex !important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12.5px;
+    margin-left: -12.5px;
+}
+.btn, .ajax-upload-dragdrop .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .swal2-styled, .wizard > .actions a, .btn-group.open .dropdown-toggle, .btn:active, .ajax-upload-dragdrop .ajax-file-upload:active, .swal2-modal .swal2-buttonswrapper .swal2-styled:active, .wizard > .actions a:active, .btn:focus, .ajax-upload-dragdrop .ajax-file-upload:focus, .swal2-modal .swal2-buttonswrapper .swal2-styled:focus, .wizard > .actions a:focus, .btn:hover, .ajax-upload-dragdrop .ajax-file-upload:hover, .swal2-modal .swal2-buttonswrapper .swal2-styled:hover, .wizard > .actions a:hover, .btn:visited, .ajax-upload-dragdrop .ajax-file-upload:visited, .swal2-modal .swal2-buttonswrapper .swal2-styled:visited, .wizard > .actions a:visited, a, a:active, a:checked, a:focus, a:hover, a:visited, body, button, button:active, button:hover, button:visited, div, input, input:active, input:focus, input:hover, input:visited, select, select:active, select:focus, select:visited, textarea, textarea:active, textarea:focus, textarea:hover, textarea:visited {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+a, div, h1, h2, h3, h4, h5, p, span {
+    text-shadow: none;
+}
+* {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.auth.theme-two .banner-section {
+    padding-right: 0;
+}
+.align-items-stretch, .email-wrapper .message-body .attachments-sections ul li {
+    align-items: stretch !important;
+}
+.justify-content-center, .email-wrapper .message-body .attachments-sections ul li .thumb {
+    justify-content: center !important;
+}
+@media (min-width: 768px)
+.d-md-flex {
+    display: flex !important;
+}
+.d-none {
+    display: none !important;
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+
+.auth.theme-two .banner-section .slide-content {
+    width: 100vw;
+}
+
+
+.auth.theme-two .auto-form-wrapper {
+    position: relative;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    border-radius: 4px;
+}
+.align-items-center, .loader-demo-box, .tickets-tab ul li .details, .nav .nav-item.dropdown .navbar-dropdown .dropdown-item, .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item, .new-accounts ul.chats li.chat-persons a, .list-wrapper ul li, .email-wrapper .message-body .attachments-sections ul li .thumb, .email-wrapper .message-body .attachments-sections ul li .details .buttons {
+    align-items: center !important;
+}
+.justify-content-center, .email-wrapper .message-body .attachments-sections ul li .thumb {
+    justify-content: center !important;
+}
+.flex-column, .new-accounts ul.chats li.chat-persons a div.user, .email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user {
+    flex-direction: column !important;
+}
+
+#login {
+    width: 50% !important;
+    min-width: 300px;
+    max-width: 480px;
+}
+
+#login form {padding:unset;width:unset;margin:unset;box-shadow:unset;background:unset;}
+#login {padding:unset;margin:unset;}
+
+body.login.wp-core-ui #login form#loginform {
+    background: unset !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;font-size: 1.50rem !important;
+}
+
+
+.h3, h3 {
+    font-size: 1.56rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+a, div, h1, h2, h3, h4, h5, p, span {
+    text-shadow: none;
+}
+h3, .h3 {
+    font-size: 2.75rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.auth.theme-two .auto-form-wrapper form .form-group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.auth.theme-two .auto-form-wrapper form .form-group .input-group, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap {
+    height: 44px;
+}
+.input-group, .asColorPicker-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.input-group-append, .input-group-prepend, .asColorPicker-trigger {
+    background: #fff;
+    color: #c9c8c8;
+    width: auto;
+    border: none;
+}
+.input-group-prepend, .asColorPicker-trigger {
+    margin-right: -1px;
+}
+.input-group-prepend, .asColorPicker-trigger, .input-group-append {
+    display: flex;
+}
+.auth.theme-two .auto-form-wrapper form .form-group .input-group .input-group-prepend .input-group-text, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .input-group-prepend .input-group-text, .auth.theme-two .auto-form-wrapper form .form-group .input-group .asColorPicker-trigger .input-group-text, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .asColorPicker-trigger .input-group-text {
+    border-radius: 6px 0 0 6px;
+    border-color: #c3cde4;
+    border-right: none;
+    color: #dfdfdf;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.56rem 1.375rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+}
+
+.mdi-account-outline:before {
+    content: "\f007";
+}
+
+p {color:#000 !important;}
+
+a {color:#000 !important;}
+
+#nav {float:right;}
+
+#backtoblog {float:left;margin:0px !important;}
+   
+
+.login #nav {
+    margin: 0px !important;
+}
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0px !important;
+}
+
+
+label {
+    display: inline-block;
+    width: 100% !important;
+    margin-bottom: 0px;
+    font-weight: unset;font-size: 0px !important;color:#000 !important;
+}
+
+label input {font-size: 1.10rem !important;}
+
+.mdi-lock-outline:before {
+    content: "\f023";
+}
+.mdi:before, .mdi-set {
+    display: inline-block;
+    font: normal normal normal 24px/1 "FontAwesome";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.auth.theme-two .auto-form-wrapper form .form-group .input-group .form-control, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .form-control, .auth.theme-two .auto-form-wrapper form .form-group .input-group .asColorPicker-input, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .asColorPicker-input, .auth.theme-two .auto-form-wrapper form .form-group .input-group .dataTables_wrapper select, .dataTables_wrapper .auth.theme-two .auto-form-wrapper form .form-group .input-group select, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap select, .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group input[type=text], .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap input[type=text], .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group select, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap select, .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group input[type=number], .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap input[type=number], .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-selection--single, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-selection--single, .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-search__field, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-search__field, .auth.theme-two .auto-form-wrapper form .form-group .input-group .tt-hint, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .tt-hint, .auth.theme-two .auto-form-wrapper form .form-group .input-group .tt-query, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .tt-query, .auth.theme-two .auto-form-wrapper form .form-group .input-group .typeahead, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .typeahead {
+    border: 1px solid #c3cde4 !important;
+    border-left: none !important;
+    border-radius: 0 6px 6px 0 !important;
+}
+
+.input-group > .form-control, .asColorPicker-wrap > .form-control, .input-group > .asColorPicker-input, .asColorPicker-wrap > .asColorPicker-input, .dataTables_wrapper .input-group > select, .dataTables_wrapper .asColorPicker-wrap > select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > select, .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > select, .jsgrid .jsgrid-table .jsgrid-filter-row .input-group > input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .asColorPicker-wrap > input[type=number], .select2-container--default .input-group > .select2-selection--single, .select2-container--default .asColorPicker-wrap > .select2-selection--single, .select2-container--default .select2-selection--single .input-group > .select2-search__field, .select2-container--default .select2-selection--single .asColorPicker-wrap > .select2-search__field, .input-group > .tt-hint, .asColorPicker-wrap > .tt-hint, .input-group > .tt-query, .asColorPicker-wrap > .tt-query, .input-group > .typeahead, .asColorPicker-wrap > .typeahead, .input-group > .custom-select, .asColorPicker-wrap > .custom-select, .input-group > .custom-file, .asColorPicker-wrap > .custom-file {
+    position: relative !important;
+    flex: 1 1 auto !important;
+    width: 1% !important;
+    margin-bottom: 0 !important;
+}
+
+.login form .input, .login input[type=text] {
+    font-size: unset;
+    width: unset;
+    padding: 6px 12px !important;
+    margin: unset;
+}
+.login input[type=text] {
+    background: unset !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: unset !important;}
+    
+.auth.theme-two .auto-form-wrapper form .form-group .submit-btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    padding: 11px 33px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn:not(:disabled):not(.disabled), .ajax-upload-dragdrop .ajax-file-upload:not(:disabled):not(.disabled), .swal2-modal .swal2-buttonswrapper .swal2-styled:not(:disabled):not(.disabled), .wizard > .actions a:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn, .ajax-upload-dragdrop .ajax-file-upload, .swal2-modal .swal2-buttonswrapper .swal2-styled, .wizard > .actions a {
+    font-size: 0.875rem;
+    line-height: 1;
+    font-family: "Open Sans", sans-serif;
+}
+
+.forgetmenot label {font-size:13px !important;padding-top:0px;}
+
+.forgetmenot .form-group {
+    float:left !important;
+        width: unset !important;}
+.forgetmenot .input-group {
+    float:left !important;
+    margin-top: -3px !important;}
+    
+    
+.forgetmenot input {border-radius:100%;margin-left:5px;margin-right:5px;box-shadow:unset;-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;outline: 0px;}
+
+input[type="checkbox"]:focus{
+        outline:0;
+    }
+
+.forgetmenot .input-group {height:unset;}
+.forgetmenot .form-group{margin-bottom:0px !important;}
+
+.submit .input-group {
+    width: unset !important;
+    float: right;
+}
+
+.submit .form-group {float:right;width: unset !important;}
+
+.register {display:none;}
+.login-action-register .input-group-prepend, .login-action-register .asColorPicker-trigger,  .login-action-register .input-group-append {
+    display: none;
+}
+        
+.login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .form-control, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .form-control, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .asColorPicker-input, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .asColorPicker-input, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .dataTables_wrapper select, .dataTables_wrapper .auth.theme-two .auto-form-wrapper form .form-group .input-group select, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap select, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group input[type=text], .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap input[type=text], .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group select, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap select, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .input-group input[type=number], .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap input[type=number], .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-selection--single, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-selection--single, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-two .auto-form-wrapper form .form-group .input-group .select2-search__field, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .select2-search__field, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .tt-hint, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .tt-hint, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .tt-query, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .tt-query, .login-action-register .auth.theme-two .auto-form-wrapper form .form-group .input-group .typeahead, .auth.theme-two .auto-form-wrapper form .form-group .asColorPicker-wrap .typeahead {
+    border: 1px solid #c3cde4 !important;
+    border-left: 1px solid #c3cde4 !important;
+    border-radius: 6px 6px 6px 6px !important;
+}
+
+.login-action-register .mr-auto {display:none;}
+
+.login-action-register label {
+    display: inline-block;
+    width: 100% !important;
+    margin-bottom: 0px;
+    font-weight: unset; 
+    font-size: 13px !important;
+    color: #000 !important;
+    line-height: 40px;
+    font-weight: bold;
+}

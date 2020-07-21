@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'wp_plus';
+  src:  url('fonts/wp_plus.eot?dnmeo0');
+  src:  url('fonts/wp_plus.eot?dnmeo0#iefix') format('embedded-opentype'),
+    url('fonts/wp_plus.ttf?dnmeo0') format('truetype'),
+    url('fonts/wp_plus.woff?dnmeo0') format('woff'),
+    url('fonts/wp_plus.svg?dnmeo0#wp_plus') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wp_plus-"], [class*=" wp_plus-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wp_plus' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin-right: 5px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp_plus-tools:before {
+  content: "\e909";
+}
+.wp_plus-comment:before {
+  content: "\e90a";
+}
+.wp_plus-import_export:before {
+  content: "\e90b";
+}
+.wp_plus-shopping_basket:before {
+  content: "\e90c";
+}
+.wp_plus-person_pin:before {
+  content: "\e90d";
+}
+.wp_plus-person_add:before {
+  content: "\e90e";
+}
+.wp_plus-person:before {
+  content: "\e90f";
+}
+.wp_plus-palette:before {
+  content: "\e910";
+}
+.wp_plus-photo:before {
+  content: "\e911";
+}
+.wp_plus-envelope:before {
+  content: "\e912";
+}
+.wp_plus-cubes:before {
+  content: "\e913";
+}
+.wp_plus-plug:before {
+  content: "\e914";
+}
+.wp_plus-page:before {
+  content: "\e915";
+}
+.wp_plus-feather:before {
+  content: "\e916";
+}
+.wp_plus-settings:before {
+  content: "\e917";
+}
+.wp_plus-wp_plus_full:before {
+  content: "\e918";
+}
+.wp_plus-terminal:before {
+  content: "\e907";
+}
+.wp_plus-code:before {
+  content: "\e908";
+}
+.wp_plus-java:before {
+  content: "\e901";
+}
+.wp_plus-javascript:before {
+  content: "\e902";
+}
+.wp_plus-jquery:before {
+  content: "\e903";
+}
+.wp_plus-mysql:before {
+  content: "\e904";
+}
+.wp_plus-php:before {
+  content: "\e905";
+}
+.wp_plus-edge:before {
+  content: "\eadc";
+}
+.wp_plus-mito:before {
+  content: "\a001";
+}
+.wp_plus-wp_plus:before {
+  content: "\a002";
+}
+.wp_plus-css:before {
+  content: "\e900";
+}
+.wp_plus-html:before {
+  content: "\eadf";
+}
+.wp_plus-wordpress:before {
+  content: "\eab6";
+}
+.wp_plus-magento:before {
+  content: "\a003";
+}
+.wp_plus-pencil:before {
+  content: "\e906";
+}
+.wp_plus-apple:before {
+  content: "\eabf";
+}
+.wp_plus-windows:before {
+  content: "\eac3";
+}
+.wp_plus-chrome:before {
+  content: "\eae5";
+}
+.wp_plus-firefox:before {
+  content: "\eae6";
+}
+.wp_plus-ie:before {
+  content: "\eae7";
+}
+.wp_plus-opera:before {
+  content: "\eae8";
+}
+.wp_plus-safari:before {
+  content: "\eae9";
+}
+
